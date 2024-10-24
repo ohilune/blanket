@@ -1,0 +1,326 @@
+* {
+    font-family: 'Inter';
+    font-size: 11px;
+    font-weight: normal;
+}
+
+QWidget {
+    background-color: #303030;
+    color: #ffffff;
+}
+
+QLabel {
+
+    background-color: transparent;
+}
+
+QToolButton {
+    padding: 0;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    background-color: #545454;
+    border: 1px solid #3d3d3d;
+    border-radius: 0.2em;
+    color: #e1e1e1;
+}
+
+QToolButton:hover {
+    background-color: #656565;
+}
+
+QToolButton:pressed {
+    background-color: #4772b3;
+}
+
+QPushButton {
+    padding: 2px 16px;
+    background-color: #545454;
+    border: 1px solid #3d3d3d;
+    border-radius: 0.2em;
+    color: #e1e1e1;
+}
+
+QPushButton:hover {
+    background-color: #656565;
+}
+
+QPushButton:pressed {
+    background-color: #4772b3;
+}
+
+
+QLineEdit {
+    background-color: #1d1d1d;
+    border: 1px solid #3d3d3d;
+    border-radius: 0.2em;
+    min-height: 20px;
+    margin: 0;
+    padding: 0 4px;
+}
+
+QTabWidget, QTabWidget::pane {
+    border: none;
+}
+
+QTabBar::tab {
+    padding: 4px 4px 2px;
+    margin-right: 4px;
+    min-width: 64px;
+    background-color: #3d3d3d;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    border-bottom: none;
+    color: #aeaeae;
+}
+
+QTabBar::tab:selected {
+    padding-bottom: 4px;
+    background-color: #4772b3;
+    color: #ffffff;
+}
+
+QTabWidget QStackedWidget > QWidget {
+    background-color: #3d3d3d;
+    border-top-right-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+}
+
+QTabWidget QStackedWidget > QWidget > QWidget {
+    background-color: transparent;
+}
+
+QComboBox {
+    padding-left: 6px;
+    min-height: 20px;
+    background-color: #282828;
+    border: 1px solid #464646;
+    border-radius: 0.2em;
+    color: #e1e1e1;
+}
+
+QComboBox:hover {
+    background-color: #303030;
+}
+
+QComboBox::on {
+    background-color: #446290;
+    border-bottom-color: #1d1d1d;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+    background-color: transparent;
+}
+
+QComboBox::down-arrow {
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+    image: url(images:/down_arrow_16px.png);
+}
+
+QComboBox QAbstractItemView {
+    background-color: #303030;
+    border: 1px solid #343434;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    selection-background-color: #5680c2;
+}
+
+QComboBox QListView {
+    /*padding: 4px;*/
+    background-color: #303030;
+    border: none;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    outline: 0;
+}
+
+QComboBox QListView::item {
+    height: 20px;
+    /*background-color: blue;*/
+}
+
+
+/*QFrame.HLine {*/
+/*    !*background-color: #45494a;*!*/
+/*    background-color: red;*/
+/*}*/
+
+/*QListWidget {*/
+/*    outline: none;*/
+/*    border: none;*/
+/*    background-color: #3e434c;*/
+/*    font-size: 11px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*QListWidget::item {*/
+/*    margin: 0;*/
+/*    padding: 4px;*/
+/*}*/
+
+
+/*QTreeView {*/
+/*    outline: none;*/
+/*    border: none;*/
+/*    color: #bbbbbb;*/
+/*    font-size: 11px;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+/*QTreeView::item {*/
+/*    min-height: 20px;*/
+/*}*/
+
+/*QTreeView::item:hover {*/
+/*    outline: none;*/
+/*    background-color: #4e5254;*/
+/*    color: #bbbbbb;*/
+/*}*/
+
+/*QTreeView::item:selected {*/
+/*    outline: none;*/
+/*    background-color: #2d2f30;*/
+/*    color: #bbbbbb;*/
+/*}*/
+
+
+/*QTabBar::tab:selected, QTabBar::tab:hover {*/
+/*    background-color: #2d2f30;*/
+/*}*/
+
+/*QTableView {*/
+/*    outline: none;*/
+/*    background-color: #2b2b2b;*/
+/*    gridline-color: rgba(0, 0, 0, 0.0);*/
+/*    border: 1px solid #323232;*/
+/*    padding: 4px;*/
+/*}*/
+
+/*QTableView::item:focus {*/
+/*    background-color: #3c3f41;*/
+/*}*/
+
+/*QTableView::item:hover {*/
+/*    background-color: #3c3f41;*/
+/*}*/
+
+/*QMenuBar {*/
+/*    border-bottom: 1px solid #464646;*/
+/*}*/
+
+/*QMenuBar::item:selected {*/
+/*    background: #2d2f30;*/
+/*}*/
+
+/*QStatusBar {*/
+/*    border-top: 1px solid #464646;*/
+/*}*/
+
+/*QMenu {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*QMenu::item {*/
+/*    margin: 0;*/
+/*    padding: 4px 16px;*/
+/*}*/
+
+/*QMenu::item:selected {*/
+/*    background-color: #2d2f30;*/
+/*}*/
+
+
+/*QSlider::groove:horizontal {*/
+/*    background-color: #464646;*/
+/*    border-radius: 1px;*/
+/*    height: 2px;*/
+/*    margin: 0;*/
+/*}*/
+
+/*QSlider::handle:horizontal {*/
+/*    background-color: #4b6eaf;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    height: 10px;*/
+/*    width: 10px;*/
+/*    margin: -4px 0;*/
+/*    padding: -4px 0;*/
+/*}*/
+
+/*QToolButton {*/
+/*    border: none;*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+/*    margin: 0 4px;*/
+/*    padding: 0;*/
+/*}*/
+
+
+/*QToolButton:hover {*/
+/*    background-color: #464646;*/
+/*}*/
+
+/*QScrollBar {*/
+/*    background-color: transparent;*/
+/*    border: 0 solid transparent;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*QScrollBar:vertical,*/
+/*QScrollBar:horizontal {*/
+/*    background-color: transparent;*/
+/*    margin: 0;*/
+/*    border: 0 solid transparent;*/
+/*}*/
+
+/*QScrollBar:vertical {*/
+/*    width: 8px;*/
+/*}*/
+
+/*QScrollBar:horizontal {*/
+/*    height: 8px;*/
+/*}*/
+
+/*QScrollBar::handle:vertical,*/
+/*QScrollBar::handle:horizontal {*/
+/*    background-color: #595b5d;*/
+/*}*/
+
+/*QScrollBar::handle:vertical {*/
+/*    min-height: 32px;*/
+/*}*/
+
+/*QScrollBar::handle:horizontal {*/
+/*    min-width: 32px;*/
+/*}*/
+
+/*QScrollBar::add-line:vertical,*/
+/*QScrollBar::sub-line:vertical,*/
+/*QScrollBar::add-line:horizontal,*/
+/*QScrollBar::sub-line:horizontal {*/
+/*    border: 0 solid transparent;*/
+/*    background-color: transparent;*/
+/*    height: 0;*/
+/*}*/
+
+/*QScrollBar::up-arrow:horizontal,*/
+/*QScrollBar::down-arrow:horizontal,*/
+/*QScrollBar::add-page:horizontal,*/
+/*QScrollBar::sub-page:horizontal,*/
+/*QScrollBar::up-arrow:vertical,*/
+/*QScrollBar::down-arrow:vertical,*/
+/*QScrollBar::add-page:vertical,*/
+/*QScrollBar::sub-page:vertical {*/
+/*    background-color: transparent;*/
+/*    border: 0 solid transparent;*/
+/*}*/

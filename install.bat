@@ -1,1 +1,0 @@
-"C:\Program Files\Blender Foundation\Blender 4.2\blender.exe" --command extension install-file -r "user_default" ./dist/blanket_ohilune_extension-1.0.0.zip
